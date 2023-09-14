@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1><%=post.user%></h1>
+      <p><%=post.content%></p>
+      <h6><%=post.id%></h6>
+      <a href="http://localhost:3001/<%=post.id%>/edit" method="get"> Edit Post </a>
+    </div>
+  </body>
+</html>
