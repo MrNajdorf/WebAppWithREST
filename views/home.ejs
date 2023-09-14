@@ -12,6 +12,7 @@
       <h1><%= post.user %></h1>
       <p><%= post.content %></p>
       <a href="http://localhost:3001/<%= post.id %>">View Post In Detail</a>
+      <form action="http://localhost:3001/<%= post.id %>?_method=DELETE" method="post"><button>Delete</button></form>
     </div>
     <% } %>
     <a href="http://localhost:3001/new">Create new post</a>

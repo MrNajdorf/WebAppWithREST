@@ -55,3 +55,9 @@ app.patch('/:id',(req,res)=>{
     post.content = newContent;
     res.redirect("/");
 });
+
+app.delete('/:id',(req,res)=>{
+    let {id} = req.params;
+    posts = posts.filter((p)=>id !== p.id);
+    res.redirect('/');
+})
