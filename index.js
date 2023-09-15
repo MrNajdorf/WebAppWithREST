@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 let posts = [
     {id: uuidv4(), user: "Aman", content: "Hello World!"},
     {id: uuidv4(), user: "Akash", content: "Lmao!"},
-    {id: uuidv4(), user: "Aryan", content: "Lol!"},
+    {id: uuidv4(), user: "Priyanshi", content: "Akash is hot"},
 ]
 
 app.listen(port, () => {
